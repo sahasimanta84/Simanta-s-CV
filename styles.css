@@ -1,0 +1,135 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #E5E7E7;
+    color: #043442;
+    margin: 0;
+    padding: 0;
+}
+
+.cv {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.header {
+    background-color: #043442;
+    color: #E5E7E7;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+}
+
+.name {
+    color: #FFFFFF;
+}
+
+.profile-photo {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    width:150px;
+    height:150px;
+    border-radius: 100%;
+}
+
+.section {
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: #043442;
+}
+
+.contact-info {
+    margin: 5px 0;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.education {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.education-item {
+    padding: 10px;
+    background-color: #BAC7CE;
+    color: #043442;
+}
+
+.sub-info {
+    margin-bottom: 5px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.skill-category {
+    background-color: #BAC7CE;
+    color: #043442;
+    padding: 10px;
+}
+
+.skills ul {
+    padding-left: 20px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-year {
+    background-color: #BAC7CE;
+    color: #043442;
+    padding: 10px;
+}
+
+.projects ul {
+    padding-left: 20px;
+    list-style: none;
+}
+
+.projects ul li::before {
+    content: "•";
+    color: #043442;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.activities {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.activity-item {
+    background-color: #BAC7CE;
+    color: #043442;
+    padding: 10px;
+}
+
+.activities ul {
+    padding-left: 20px;
+}
+
+.references {
+    font-style: italic;
+    color: #043442;
+}
+
+.experience {
+    font-style: italic;
+    color: #043442;
+}
